@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form UTS Periksa Gigi</title>
+    <style>
+        .formdata{
+            display: flex;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Booking Periksa Kesehatan Gigi</legend>
+        <div class="formdata">
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td>Nama Pasien</td>
+                    <td><input type="text" name="name" placeholder=""></td>
+                </tr>
+                <td>Pilih Dokter</td>
+                <td>
+                    <select>
+                        <option value="Drg. Amelia">Drg. Amelia</option>
+                        <option value="Drg. Rizki">Drg. Rizki</option>
+                        <option value="Drg. Kia">Drg. Kia</option>
+                        <option value="Drg. Asep">Drg. Asep</option>
+                    </select>
+                </td>
+                <tr>
+                <td>Pilih Layanan</td>
+                <td>
+                    <select>
+                        <option value="anak">Perawatan Gigi Anak</option>
+                        <option value="cabut">Cabut Gigi</option>
+                        <option value="tambal">Tambal Gigi</option>
+                        <option value="Pembersihan">Pembersihan Karang Gigi</option>
+                    </select>
+                </tr>
+                    <tr>
+                        <td>Keluhan </td>
+                        <td><textarea name="description" placeholder=""
+                        cols="40" rows="2"></textarea></td>
+                        <tr>
+                            <td>Pembayaran</td>
+                            <td>
+                                <input type="checkbox" name="permit" value="cash">Cash
+                                <input type="checkbox" name="permit" value="transfer">Transfer
+                                <input type="checkbox" name="permit" value="ewallet">E-Wallet
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Pemeriksaan:</td>
+                        <td><input type="date" name="tgl"></td>
+                    </tr>
+                    <tr>
+                   <td>Umur</td>
+                            <td><input type="number" name="umur" min="1"></td>
+                            </tr>
+                            <tr>
+                     <td> Telepon/HP</td>
+                           <td><input type="number" name="umur" min="1"></td>
+                           </tr>
+                           <tr>
+                            <td>Email :</td>
+                            <td><input type="email" name="email" placeholder=""></td>
+                        </tr>
+                             <tr>
+                                <td><input type="submit" name="proses" value="Submit"
+                                    style="box-shadow: 4px 3px 2px black; background-color: rgb(61, 126, 179); color: white;"></td>
+                                <td><input type="submit" name="proses" value="Reset"
+                                    style="box-shadow: 4px 3px 2px black; background-color: rgb(136, 59, 59); color: white;"></td>
+                            </tr>
+
+            </table>
+        </form>
+        </div>
+
+    </fieldset>
+    
+</body>
+</html>
